@@ -1,0 +1,25 @@
+{
+  "name": "giveup-online",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "styles": "node-sass -w ./src/scss -o ./src/css",
+    "browsersync": "browser-sync start --server --files '**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gleb880/GIVEUP-online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gleb880/GIVEUP-online/issues"
+  },
+  "homepage": "https://github.com/Gleb880/GIVEUP-online#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
